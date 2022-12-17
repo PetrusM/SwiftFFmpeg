@@ -18,6 +18,38 @@
 
 static const int64_t swift_AV_NOPTS_VALUE = AV_NOPTS_VALUE;
 
+/* Audio channel */
+static const uint64_t swift_AV_CH_FRONT_LEFT = AV_CH_FRONT_LEFT;
+static const uint64_t swift_AV_CH_FRONT_RIGHT = AV_CH_FRONT_RIGHT;
+static const uint64_t swift_AV_CH_FRONT_CENTER = AV_CH_FRONT_CENTER;
+static const uint64_t swift_AV_CH_LOW_FREQUENCY = AV_CH_LOW_FREQUENCY;
+static const uint64_t swift_AV_CH_BACK_LEFT = AV_CH_BACK_LEFT;
+static const uint64_t swift_AV_CH_BACK_RIGHT = AV_CH_BACK_RIGHT;
+static const uint64_t swift_AV_CH_FRONT_LEFT_OF_CENTER = AV_CH_FRONT_LEFT_OF_CENTER;
+static const uint64_t swift_AV_CH_FRONT_RIGHT_OF_CENTER = AV_CH_FRONT_RIGHT_OF_CENTER;
+static const uint64_t swift_AV_CH_BACK_CENTER = AV_CH_BACK_CENTER;
+static const uint64_t swift_AV_CH_SIDE_LEFT = AV_CH_SIDE_LEFT;
+static const uint64_t swift_AV_CH_SIDE_RIGHT = AV_CH_SIDE_RIGHT;
+static const uint64_t swift_AV_CH_TOP_CENTER = AV_CH_TOP_CENTER;
+static const uint64_t swift_AV_CH_TOP_FRONT_LEFT = AV_CH_TOP_FRONT_LEFT;
+static const uint64_t swift_AV_CH_TOP_FRONT_CENTER = AV_CH_TOP_FRONT_CENTER;
+static const uint64_t swift_AV_CH_TOP_FRONT_RIGHT = AV_CH_TOP_FRONT_RIGHT;
+static const uint64_t swift_AV_CH_TOP_BACK_LEFT = AV_CH_TOP_BACK_LEFT;
+static const uint64_t swift_AV_CH_TOP_BACK_CENTER = AV_CH_TOP_BACK_CENTER;
+static const uint64_t swift_AV_CH_TOP_BACK_RIGHT = AV_CH_TOP_BACK_RIGHT;
+static const uint64_t swift_AV_CH_STEREO_LEFT = AV_CH_STEREO_LEFT;
+static const uint64_t swift_AV_CH_STEREO_RIGHT = AV_CH_STEREO_RIGHT;
+static const uint64_t swift_AV_CH_WIDE_LEFT = AV_CH_WIDE_LEFT;
+static const uint64_t swift_AV_CH_WIDE_RIGHT = AV_CH_WIDE_RIGHT;
+static const uint64_t swift_AV_CH_SURROUND_DIRECT_LEFT = AV_CH_SURROUND_DIRECT_LEFT;
+static const uint64_t swift_AV_CH_SURROUND_DIRECT_RIGHT = AV_CH_SURROUND_DIRECT_RIGHT;
+static const uint64_t swift_AV_CH_LOW_FREQUENCY_2 = AV_CH_LOW_FREQUENCY_2;
+static const uint64_t swift_AV_CH_TOP_SIDE_LEFT = AV_CH_TOP_SIDE_LEFT;
+static const uint64_t swift_AV_CH_TOP_SIDE_RIGHT = AV_CH_TOP_SIDE_RIGHT;
+static const uint64_t swift_AV_CH_BOTTOM_FRONT_CENTER = AV_CH_BOTTOM_FRONT_CENTER;
+static const uint64_t swift_AV_CH_BOTTOM_FRONT_LEFT = AV_CH_BOTTOM_FRONT_LEFT;
+static const uint64_t swift_AV_CH_BOTTOM_FRONT_RIGHT = AV_CH_BOTTOM_FRONT_RIGHT;
+
 /* Audio channel layout */
 static const uint64_t swift_AV_CH_LAYOUT_NATIVE            = AV_CH_LAYOUT_NATIVE;
 static const uint64_t swift_AV_CH_LAYOUT_MONO              = AV_CH_LAYOUT_MONO;
